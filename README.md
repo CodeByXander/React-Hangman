@@ -39,7 +39,7 @@ go to http://localhost:3000/
 ---
 
 ## Project Structure
-
+```
 src/
 ├─ Components/
 │ ├─ Header.js
@@ -57,7 +57,7 @@ src/
 │ ├─ App.css
 │ ├─ header.css
 │ ├─ index.css
-
+```
 ---
 
 ## Technologies Used
