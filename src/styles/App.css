@@ -1,0 +1,133 @@
+.page-container {
+  padding: 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Word Display */
+.word-display {
+  font-size: 40px;
+  letter-spacing: 12px;
+  margin: 20px 0;
+}
+
+.word-letter {
+  display: inline-block;
+  width: 30px;
+}
+
+/* Keyboard */
+.keyboard {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.key-button {
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #eee;
+  transition: background 0.2s;
+}
+
+.key-button:hover {
+  background: #ddd;
+}
+
+.key-button:disabled {
+  background: #bbb;
+  color: #666;
+  cursor: not-allowed;
+}
+
+/* Results */
+.result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.win {
+  color: green;
+  font-weight: bold;
+}
+
+.lose {
+  color: red;
+  font-weight: bold;
+}
+
+.restart-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  background: #444;
+  color: white;
+  border-radius: 6px;
+}
+
+.restart-btn:hover {
+  background: #222;
+}
+
+/* Help page */
+.help-page {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.help-page h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.help-page ul {
+  text-align: left;
+  margin: 15px 0;
+  padding-left: 20px;
+}
+
+/* Animated hangman */
+.animated-hangman {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.animated-hangman img {
+  width: 250px;
+}
+
+/* Play game button */
+.play-now-btn {
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.play-now-btn:hover {
+  background-color: #000;
+}
+
+.play-now-btn:active {
+  transform: scale(0.96);
+}

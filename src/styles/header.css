@@ -1,0 +1,30 @@
+.header {
+  background: #222;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 32px;
+}
+
+.header-nav {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
